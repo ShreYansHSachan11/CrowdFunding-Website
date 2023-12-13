@@ -2,16 +2,16 @@ import styled from 'styled-components';
 
 const HeaderLogo = () => {
   return (
-    <Logo>The Saviour</Logo>
+    <Logo>C3WebFunding</Logo>
   )
 }
 
 const Logo = styled.h1`
   font-weight: normal;
-  font-size: 40px;
-  margin-left: 11px;
-  font-family: 'Praise';
-  letter-spacing: 3px;
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: 'Poppins';
+  letter-spacing: 2px;
   cursor: pointer;
 `
 
