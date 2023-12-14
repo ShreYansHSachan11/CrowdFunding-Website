@@ -33,14 +33,18 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+        
+        
     }
 `;
 
 const LayoutWrapper = styled.div`
   min-height: 100vh;
   background-color: ${(props) => props.theme.bgColor};
-  background-image: ${(props) => props.theme.bgImage};
+  background-image: url(${(props) => props.theme.bgImage});
   color: ${(props) => props.theme.color};
+  background-size:cover;
+  background-repeat:no-repeat;
 `;
 
 export default Layout;

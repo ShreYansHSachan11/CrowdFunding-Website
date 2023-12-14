@@ -35,7 +35,7 @@ export default function Index({AllData, HealthData, EducationData,AnimalData}) {
             <Image 
               alt="Crowdfunding dapp"
               layout='fill' 
-              src={"https://crowdfunding.infura-ipfs.io/ipfs/" + e.image} 
+              src={"https://coffee-elaborate-hyena-159.mypinata.cloud/ipfs/" + e.image} 
             />
           </CardImg>
           <Title>
@@ -156,8 +156,8 @@ const HomeWrapper = styled.div`
 const FilterWrapper = styled.div`
   display: flex;
   align-items: center;
-  width: 80%;
-  margin-top: 15px;
+  width: 90%;
+  margin-top: 20px;
 `
 const Category = styled.div`
   padding: 10px 15px;
@@ -172,7 +172,7 @@ const CardsWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 80%;
+  width: 83%;
   margin-top: 25px;
 `
 const Card = styled.div`
@@ -191,7 +191,7 @@ const Card = styled.div`
 `
 const CardImg = styled.div`
   position: relative;
-  height: 120px;
+  height: 150px;
   width: 100%;
 `
 const Title = styled.h2`
@@ -199,14 +199,15 @@ const Title = styled.h2`
   font-size: 18px;
   margin: 2px 0px;
   background-color: ${(props) => props.theme.bgSubDiv};
-  padding: 5px;
+  padding: 15px;
   cursor: pointer;
-  font-weight: normal;
+  text-align:center;
+  font-weight: bold;
 `
 const CardData = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 2px 0px;
+  // margin: 2px 0px;
   background-color: ${(props) => props.theme.bgSubDiv};
   padding: 5px;
   cursor: pointer;
@@ -217,16 +218,16 @@ const Text = styled.p`
   margin: 0;
   padding: 0;
   font-family: 'Roboto';
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
+  // font-weight: bold;
 `
 const Button = styled.button`
   padding: 8px;
   text-align: center;
   width: 100%;
-  background-color:#00b712 ;
-  background-image:
-      linear-gradient(180deg, #00b712 0%, #5aff15 80%); 
+  background-color: darkgoldenrod;
+  // background-image:
+  //     linear-gradient(180deg, #00b712 0%, #5aff15 80%); 
   border: none;
   cursor: pointer;
   font-family: 'Roboto';
